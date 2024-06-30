@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta do Jantar</title>
+</head>
+<body>
+<!-- Iremos elaborar  um programa que leia o valor de um jantar. OBS: Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago -->
+    <script>
+        const jantar=Number(prompt("Valor do Jantar R$: ")); 
+        const garcom= jantar*0.10; // Calcula o 10% do garçom
+        const total=jantar+garcom;
+
+        alert(`O total da conta junto a taxa do garçom é R$ ${total.toFixed(2)}\nTotal R$: ${total.toFixed(2)}`);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(247, 209, 209);
+    margin: 0;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-left: 35%;
+}
+
+.frase{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+.question{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.userinfo{
+    width: 20%;
+    height: 20px;
+}
+
+.btSubmit {
+    width: 20%;
+    height: 20px;
+}
+
+#btNovo{
+
+    width: 30%;
+    height: 30px;
+}
+
+.formulario{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 30px;
+    border: 2px solid #000;
+    max-width: 30%;
+    max-height: 20%;
+    margin-left: 35%;
+    padding: 2px;
+    background-color: rgb(230, 248, 238);
+    box-shadow: 2px 2px 1px 1px;
+}
+
+.dicas, .error, .chances{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+        
+}

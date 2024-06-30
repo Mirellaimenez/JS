@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/restaurante.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Resturante por KG</title>
+</head>
+<body>
+    <h1 class="title">Controle de consumo no restaurante</h1>
+
+    <form class="forms">
+        <p>Valor do Buffet por KG
+            <input type="number" id="inQuilo" min="0" step="0.01" required>
+        </p>
+        <p>Consumo do Cliente (gr)
+            <input type="number" id="inConsumo" min="0" requiered>
+        </p>
+
+        <input type="submit" value="Calcular Preço" class="btn">
+    </form>
+    <h3 class="resp"></h3>
+</body>
+</html>
